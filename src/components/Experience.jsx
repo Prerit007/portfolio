@@ -7,7 +7,7 @@ import { tesla, docker } from "../assets";
 import { experiences } from "../constants";
 const ExperienceCard = ({ experience }) => {
   return (
-    <article className="flex flex-col rounded-lg items-center flex-shrink-0 w-[400px] md:w-[400px] xl:w-[550px] snap-center bg-tertiary p-6 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="flex flex-col rounded-lg items-center flex-shrink-0 w-[400px] md:w-[400px] xl:w-[550px] snap-center bg-tertiary p-6 hover:opacity-100 opacity-75 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
         initial={{ y: -100, opacity: 0 }}
         transition={{ duration: 1.2 }}
@@ -18,7 +18,7 @@ const ExperienceCard = ({ experience }) => {
       />
 
       <div className="px-0 md:px-10">
-        <h4 className="text-4xl pt-2 font-light">{experience.title}</h4>
+        <h4 className="text-4xl pt-4 font-light">{experience.title}</h4>
         <p className="text-2xl pt-2 font-bold mt-1">
           {experience.company_name}
         </p>
@@ -59,7 +59,7 @@ const Experience = () => {
         <h2 className={styles.sectionHeadText}>Experience.</h2>
       </motion.div>
 
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-violet-400/75">
+      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#003153]/75">
         {experiences.map((experience, index) => (
           <ExperienceCard key={`experience-${index}`} experience={experience} />
         ))}
