@@ -92,8 +92,8 @@ const technologies = [
     per: "85%",
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Python",
+    icon: python,
     per: "80%",
   },
   {
@@ -112,8 +112,8 @@ const technologies = [
     per: "50%",
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Java",
+    icon: java,
     per: "40%",
   },
   {
@@ -127,8 +127,8 @@ const technologies = [
     per: "65%",
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "tensorflow",
+    icon: tensor,
     per: "0%",
   },
 ];
@@ -142,38 +142,37 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2022 - November 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to the development of Daikoku, a pioneering platform aimed at bridging the gap between enterprises in need of rapid software solutions and driven students seeking impactful projects.",
+      "Focused primarily on the frontend of the website, showed a commitment to seamless user experiences and design aesthetics through the implementation of innovative web technologies.",
+      "Collaborating with cross-functional teams including designers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility."
     ],
   },
   {
-    title: "Frontend Developer",
-    company_name: "ProductRx",
-    tech: [html, tailwind, docker],
+    title: "HCL Technologies",
+    company_name: "HCL Tech.",
+    tech: [python, tensorflow],
     icon: rx,
     iconBg: "#E6DEDD",
-    date: "May 2023 - Present",
+    date: "June 2023 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Applied PyWavelets Library to compute Complex Wavelets, enhancing the system's ability to analyze facial features accurately.",
+      "Engineered a Multiscale Energy computation pipeline, progressively reducing image dimensions for robust feature analysis.",
+      "Employed and evaluated various Supervised Learning Models, alongside ANN and CNN Models (VGG-16, AlexNet), to identify spoofed images effectively.",
+      "Attained 87% accuracy rate in distinguishing between Genuine and Spoofed Face Images, utilizing the Random Forest Algorithm."
     ],
   },
   {
     title: "Data Scientist",
     company_name: "DRDO",
-    tech: [html, tailwind, javascript],
+    tech: [python, tensorflow],
     icon: drdo,
     iconBg: "#383E56",
     date: "May 2023 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led a comprehensive assessment of multiple Supervised Learning Algorithms to identify and mitigate network attacks on distinct protocols.",
+      "Applied empirical analysis techniques to evaluate algorithm performance, yielding actionable insights for network security enhancement.",
+      "Successfully implemented the Random Forest Algorithm, resulting in an accuracy rate of 74% for network attack detection."
     ],
   },
   // {
