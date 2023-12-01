@@ -36,6 +36,10 @@ import {
 } from "../assets";
 
 export const navLinks = [
+  // {
+  //   id: "Resume",
+  //   title: "Resume",
+  // },
   {
     id: "about",
     title: "About",

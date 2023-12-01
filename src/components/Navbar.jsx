@@ -5,6 +5,8 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, logo1, menu, close } from "../assets";
 
+
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -49,18 +51,23 @@ const Navbar = () => {
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.title ? "text-white" : "text-primary1"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
-            >
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
-          ))}
-        </ul>
+  {navLinks.map((nav) => (
+    <li
+      key={nav.id}
+      className={`${
+        active === nav.title ? "text-white" : "text-primary1"
+      } hover:text-white text-[18px] font-medium cursor-pointer`}
+      onClick={() => {
+        setActive(nav.title);
+        if (nav.id === 'Resume' || nav.title === 'Resume') {
+          <a href="https://drive.google.com/file/d/1p0R22YJijtRFdp2kJjzvd1Fyq346rV4w/view?usp=sharing"></a> // Replace with your resume URL
+        }
+      }}
+    >
+      <a href={`#${nav.id}`}>{nav.title}</a>
+    </li>
+  ))}
+</ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
