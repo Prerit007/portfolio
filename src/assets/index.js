@@ -24,6 +24,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import tensor from "./tech/tensor.png";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -32,6 +35,7 @@ import tesla from "./company/tesla.png";
 import rx from "./company/rx.png";
 import drdo from "./company/drdo.png";
 import daikoku from "./company/daikoku.svg";
+import hcl from "./company/download.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -44,6 +48,7 @@ export {
   logo,
   rx,
   drdo,
+  hcl,
   daikoku,
   backend,
   creator,
@@ -71,6 +76,9 @@ export {
   threejs,
   bg,
   bg1,
+  tensor,
+  python,
+  java,
   meta,
   shopify,
   starbucks,

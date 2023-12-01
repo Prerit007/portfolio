@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  hcl,
   redux,
   tailwind,
   nodejs,
@@ -27,6 +28,9 @@ import {
   carrent,
   jobit,
   tripguide,
+  tensor,
+  java, 
+  python,
   threejs,
   daikoku,
 } from "../assets";
@@ -52,7 +56,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "ML Developer",
     icon: mobile,
   },
   {
@@ -151,8 +155,8 @@ const experiences = [
   {
     title: "HCL Technologies",
     company_name: "HCL Tech.",
-    tech: [python, tensorflow],
-    icon: rx,
+    tech: [python, tensor],
+    icon: hcl,
     iconBg: "#E6DEDD",
     date: "June 2023 - July 2023",
     points: [
@@ -165,7 +169,7 @@ const experiences = [
   {
     title: "Data Scientist",
     company_name: "DRDO",
-    tech: [python, tensorflow],
+    tech: [python, tensor],
     icon: drdo,
     iconBg: "#383E56",
     date: "May 2023 - July 2023",
